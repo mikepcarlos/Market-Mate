@@ -15,4 +15,23 @@ code {
 
 /* ################ HOME PAGE ################*/
 
+/* ############### logo ################## */
+
+.logo {
+  position: absolute;
+  padding: 2vw;
+  margin-top: 3vh;
+}
+
+.logo img {
+  height: 18vh;
+}
+
+/* ########################################## */
+
+.title {
+  position: absolute;
+  font-size: 10vw;
+}
+
 /* ########################################## */
