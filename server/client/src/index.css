@@ -50,7 +50,6 @@ code {
   font-size: 20vw;
   display: flex;
   justify-content: center;
-  /* font-family: 'Staatliches', cursive; */
   font-family: 'Bangers', cursive;
   color: #fff;
   text-shadow: 8px 5px 0 rgba(0, 0, 0, 0.7);
@@ -58,6 +57,36 @@ code {
 
 .title h3 {
   transform: rotate(-4deg);
+}
+
+/* ########################################## */
+
+/* ############### homescreen buttons ################## */
+
+.home-buttons {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 32vh;
+}
+
+.start-options {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw;
+  margin: 2vw;
+}
+
+.start-options button {
+  background-color: #fff;
+  border-radius: 20px;
+  height: 10vh;
+  border: 2px solid black;
+  box-shadow: 5px 10px 0 rgba(0, 0, 0, 0.7);
+  font-size: 8vw;
+  font-family: 'Staatliches', cursive;
+  /* font-family: 'Bangers', cursive; */
 }
 
 /* ########################################## */
