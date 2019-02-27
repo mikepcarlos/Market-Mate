@@ -6,14 +6,14 @@ const Home = () => {
       <span></span>
       <div className="home-content">
         <div className="title">
-          <h3>mark.et</h3>
+          <h3>mark.it</h3>
         </div>
       </div>
       <div className="home-buttons">
         <div className="start-options">
-          <button type="button">New Session</button>
+          <button type="button">New List</button>
           <br></br>
-          <button type="button">Current Session</button>
+          <button type="button">Current List</button>
         </div>
       </div>
     </div>
