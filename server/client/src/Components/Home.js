@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return(
@@ -11,9 +12,9 @@ const Home = () => {
       </div>
       <div className="home-buttons">
         <div className="start-options">
-          <button type="button">New List</button>
-          <br></br>
-          <button type="button">Current List</button>
+          <Link to='/new_list'>
+            <button type="button">Start Shopping!</button>
+          </Link>
         </div>
       </div>
     </div>

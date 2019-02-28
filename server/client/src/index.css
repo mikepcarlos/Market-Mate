@@ -76,6 +76,8 @@ code {
   flex-direction: column;
   padding: 2vw;
   margin: 2vw;
+  margin-left: 15vw;
+  margin-top: 10vh;
 }
 
 .start-options button {
