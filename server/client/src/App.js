@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Home from './Components/Home'
-import ListForm from './Components/ListForm'
+import ItemForm from './Components/ItemForm'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 class App extends Component {
@@ -10,7 +10,7 @@ class App extends Component {
         <BrowserRouter>
           <Switch>
             <Route exact path="/home" component={Home}/>
-            <Route exact path="/new_list" component={ListForm}/>
+            <Route exact path="/new_item" component={ItemForm}/>
           </Switch>
         </BrowserRouter>
       </div>
