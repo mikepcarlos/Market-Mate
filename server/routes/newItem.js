@@ -1,7 +1,13 @@
 module.exports = app => {
 
   app.post('/api/newItem', async(req, res) => {
-    // create new item
+    const item = await new Item(req.body);
+    item.save()
+    .then(item => {
+      res.json('item added successfully');
+    })
+    .catch(err => {
+      res.status(400).send("unable to save to database");
+    });
   });
-
 };
