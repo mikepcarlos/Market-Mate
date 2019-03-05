@@ -7,9 +7,9 @@ class ItemForm extends Component {
 
     this.state = {
       title: "",
-      quantity: "",
+      quantity: null,
       priority: null,
-      price: ""
+      price: null
     }
   }
 
