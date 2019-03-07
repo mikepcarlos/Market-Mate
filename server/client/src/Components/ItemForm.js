@@ -29,10 +29,6 @@ class ItemForm extends Component {
           <input type="text" name="name" value=""/>
           <label>How Much $$?</label>
           <input type="text" name="name" value=""/>
-          <label>OR</label>
-          <div className="camera-btn-container">
-            <button type="button" className="camera-btn"></button>
-          </div>
           <br></br>
           <div className="submit-item-container">
             <button type="Submit" className="submit-tem-button">Submit</button>
