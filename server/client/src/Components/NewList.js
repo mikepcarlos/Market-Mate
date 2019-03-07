@@ -1,18 +1,33 @@
-import React from 'react';
+import React, { Component } from 'react';
+import ItemForm from './ItemForm'
 import { Link } from 'react-router-dom';
 
-const NewList = () => {
+class NewList extends Component {
 
-  return(
-    <div>
-      New List
-      <div className="add item">
-        <Link to='/new_item'>
-          <button type="button">Add Item</button>
-        </Link>
+  constructor(){
+    super()
+
+    this.state = {
+      list: []
+    }
+  }
+
+  postItem = (item) => {
+
+    console.log("item - ", item);
+
+  }
+
+  render(){
+    return(
+      <div>
+        New List
+        <div className="add item">
+          <ItemForm postItem={this.postItem}/>
+        </div>
       </div>
-    </div>
-  )
+    )
+  }
 
 };
 
